@@ -11,14 +11,29 @@ header{
 }
 
 header h2{
+    width: 144px;
+    height: 32px;
+    top: 20px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
     font-family: "Poppins";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    text-align: left;
 }
 
 header h2 span{
+    font-family: "Poppins";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    text-align: left;
     color: #69B99D;
 }
 
-header img{
+header span{
     width: 24px;
     height: 24px;
     top: 24px;
@@ -28,6 +43,7 @@ header img{
     opacity: 0px;
     margin-top: 20px;
     margin-right: 24px;
+    color: #69B99D;
 }
 
 .divider1{
@@ -432,8 +448,8 @@ header img{
 }
 
 .section5 button{
-    width: Hug (236px);
-    height: Fixed (56px);
+    width: 236px;
+    height: 56px;
     padding: 14px, 32px, 15px, 32px;
     top: 296px;
     left: 24px;
@@ -443,7 +459,7 @@ header img{
     background-color: #69B99D;
     display: flex;
     border: none;
-    margin-left: -8.6rem;
+    margin-left: -6rem;
 }
 
 .section5 button img{
@@ -452,6 +468,7 @@ header img{
     gap: 0px;
     opacity: 0px;
     margin-top: 12px;
+    margin-left: 1.4rem;
     padding: 1.98px 2.09px 2px 2px;
 }
 
@@ -477,6 +494,7 @@ header img{
 
 .row{
     display: flex;
+    flex-direction: column;
     width: 145px;
     height: 24px;
     top: 416px;
@@ -510,11 +528,14 @@ header img{
     font-weight: 400;
     line-height: 20.83px;
     text-align: left;
+    color: #767676;
+    margin-top: -1.6rem;
+    margin-left: 2rem;
 }
 
 footer{
-    width: 375px;
-    height: 294px;
+    width: 100vw;
+    height: 254px;
     top: 4736px;
     gap: 0px;
     opacity: 0px; 
